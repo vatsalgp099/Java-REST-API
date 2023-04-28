@@ -54,9 +54,9 @@ public class UserController {
         Optional<User> infosOptional = repo.findById(id);
         if (infosOptional.isPresent()){
             User infosToSave = infosOptional.get();
-            infosToSave.setCompleted(infos.getCompleted() != null ? infos.getCompleted() : infosToSave.getCompleted());
-            infosToSave.setTodo(infos.getTodo() != null ? infos.getTodo() : infosToSave.getTodo());
-            infosToSave.setDescription(infos.getDescription() != null ? infos.getDescription() : infosToSave.getDescription());
+            infosToSave.setName(infos.getName() != null ? infos.getName() : infosToSave.getName());
+            infosToSave.setLanguage(infos.getLanguage() != null ? infos.getLanguage() : infosToSave.getLanguage());
+            infosToSave.setFramework(infos.getFramework() != null ? infos.getFramework() : infosToSave.getFramework());
             infosToSave.setUpdatedAt(new Date(System.currentTimeMillis()));
             repo.save(infosToSave);
             return new ResponseEntity<>(infosToSave, HttpStatus.OK);

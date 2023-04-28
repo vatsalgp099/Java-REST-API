@@ -17,9 +17,9 @@ import java.util.Date;
 public class User {
     @Id
     private String id;
-    private String todo;
-    private String description;
-    private Boolean completed;
+    private String name;
+    private String language;
+    private String framework;
     private Date createdAt;
     private Date updatedAt;
 
