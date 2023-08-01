@@ -2,7 +2,7 @@
 
 ## About
 
-Implement an application in java which provides a REST API with endpoints for searching. creating and deleting "server" objects. 
+Implement an application in java that provides a REST API with endpoints for searching. creating and deleting "server" objects. 
 
 ## Index 
 * Tasks to be achieved
@@ -11,9 +11,9 @@ Implement an application in java which provides a REST API with endpoints for se
 * Process
 
 ## Task to be achieved: 
-- GET servers: Should return all the servers if no parameter are passed. When server id is passed as a parameter - return a single server or 404 if there's no such a server.
+- GET servers: Should return all the servers if no parameters are passed. When server id is passed as a parameter - return a single server or 404 if there's no such server.
 - PUT a server: The server object is passed as a json-encoded message body.
-- DELETE a server: The parameter is server ID
+- DELETE a server: The parameter is the server ID
 - GET(find) server by name. The parameter is a string. Must check if a server name contains this string and return one or more servers found. Return 40 if nothing is found.
 
 ## Database
@@ -35,13 +35,16 @@ Implement an application in java which provides a REST API with endpoints for se
 The Intellij IDE is used to cater the project as a whole. 
 - Using [Spring boot initilizer](https://start.spring.io/) the project file was generated. 
 - In the *..\src\main\java\com.vg.App* seperate folders were created for controller, model, and repository.
-- Kindly refer to the files for the code. 
- ![Screenshot (130)](https://user-images.githubusercontent.com/68069100/235363907-2f74822e-be4d-47eb-9e17-d4dd9ffa841a.png)
+- Kindly refer to the files for the code.
+
+**UPDATED USING RELEVANT NAMING**
+![Screenshot (243)](https://github.com/vatsalgp099/Java-REST-API/assets/68069100/44e3011d-81e5-478c-afe3-847b20f54967)
+
  - API end points were created. 
  
  ### MongoDB 
  
- - A server was created using mongodb
+ - A server was created using Mongodb
 *mongod* is the "Mongo Daemon" it's basically the host process for the database. When you start mongod you're basically saying "start the MongoDB process and run it in the background"
 
 ![Screenshot (131)](https://user-images.githubusercontent.com/68069100/235364078-42a4d954-c9b0-4a27-96a7-1cb2e8d301d5.png)
@@ -59,31 +62,31 @@ The API is tested using Postman
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/27097975-3da76797-8470-4f46-8d49-9b9f191603d9?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D27097975-3da76797-8470-4f46-8d49-9b9f191603d9%26entityType%3Dcollection%26workspaceId%3Dbfec2785-98df-4cfb-a92f-66f3bb1d8c8d)
 
+## UPDATED with relevant naming
 
-1. All data is retrieved (GET) 
+1. All server is retrieved (GET) - Read Servers
 
-![Screenshot (133)](https://user-images.githubusercontent.com/68069100/235364919-93648b85-b9a8-4846-a99e-ea496305f38c.png)
+![Screenshot (245)](https://github.com/vatsalgp099/Java-REST-API/assets/68069100/ab28b7d8-da59-4df3-908f-30b0d5933649)
 
+2. Server can be created (POST) - Create server
 
-2. Data can be added to database (POST) 
+![Screenshot (244)](https://github.com/vatsalgp099/Java-REST-API/assets/68069100/caf0b10a-41a6-40cf-8bd8-6473d1e3c40a)
 
-![Screenshot (134)](https://user-images.githubusercontent.com/68069100/235364984-7e9bc5bd-9286-4f92-aa5a-603b395ccb76.png)
+3. Server can be searched using *name* (GET) - Search server
 
-3. Data can be searched using *name* (GET) 
+![Screenshot (246)](https://github.com/vatsalgp099/Java-REST-API/assets/68069100/a0cb326d-2f6c-49cd-bd6a-44a0f9333c73)
 
-![Screenshot (135)](https://user-images.githubusercontent.com/68069100/235365033-8bad4243-f0de-40e8-836c-499e2fb11014.png)
+4. Server is updated by *id* (PUT) - Update servers
 
-4. Data is updated by *id* (PUT) 
+![Screenshot (247)](https://github.com/vatsalgp099/Java-REST-API/assets/68069100/592750b7-f569-4846-8dc1-853591527999)
 
-![Screenshot (136)](https://user-images.githubusercontent.com/68069100/235365096-d4f61422-3842-40e4-8c0d-7c2952683a87.png)
+5. Server is deleted using *id* (DELETE) - Delete server
 
-5. Data is deleted from the server using *id* (DELETE)
-
-![Screenshot (137)](https://user-images.githubusercontent.com/68069100/235365204-356aab0f-f261-42ef-8eeb-2a229f86d671.png)
+![Screenshot (248)](https://github.com/vatsalgp099/Java-REST-API/assets/68069100/368d309d-473f-4c3d-8421-1d50625df8df)
 
 Server object is deleted 
 
-![Screenshot (138)](https://user-images.githubusercontent.com/68069100/235365257-dbe1bda2-f0fd-4395-aa43-194d48294345.png)
+![Screenshot (245)](https://github.com/vatsalgp099/Java-REST-API/assets/68069100/519c67d9-d332-49f3-82e4-397fdb627e51)
 
 
 
