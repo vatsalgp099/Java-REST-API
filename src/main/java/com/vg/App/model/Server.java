@@ -13,8 +13,8 @@ import java.util.Date;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "info")
-public class User {
+@Document(collection = "server")
+public class Server {
     @Id
     private String id;
     private String name;
