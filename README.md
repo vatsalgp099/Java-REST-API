@@ -57,7 +57,7 @@ The Intellij IDE is used to cater the project as a whole.
 
 The API is tested using Postman 
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/27097975-3da76797-8470-4f46-8d49-9b9f191603d9?action=collection%2Ffork&collection-url=entityId%3D27097975-3da76797-8470-4f46-8d49-9b9f191603d9%26entityType%3Dcollection%26workspaceId%3Dbfec2785-98df-4cfb-a92f-66f3bb1d8c8d)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/27097975-3da76797-8470-4f46-8d49-9b9f191603d9?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D27097975-3da76797-8470-4f46-8d49-9b9f191603d9%26entityType%3Dcollection%26workspaceId%3Dbfec2785-98df-4cfb-a92f-66f3bb1d8c8d)
 
 
 1. All data is retrieved (GET) 
