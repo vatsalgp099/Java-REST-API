@@ -49,7 +49,7 @@ The Intellij IDE is used to cater the project as a whole.
 
 ![Screenshot (131)](https://user-images.githubusercontent.com/68069100/235364078-42a4d954-c9b0-4a27-96a7-1cb2e8d301d5.png)
 
-- ![Screenshot (132)](https://user-images.githubusercontent.com/68069100/235364651-cc9b5ed9-89d1-43d7-a3e9-119834278f43.png)
+![Screenshot (132)](https://user-images.githubusercontent.com/68069100/235364651-cc9b5ed9-89d1-43d7-a3e9-119834278f43.png)
 
 - Databse is *appdata* (data stored in mongoDB local database)
 
