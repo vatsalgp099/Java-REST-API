@@ -41,6 +41,19 @@ App deployment using yaml manifests:
 ![Screenshot (117)](https://user-images.githubusercontent.com/68069100/235366911-dbd8d225-0c1b-4a80-be98-ea9d74cc121f.png)
 
 
+## UPDATED !! - JULY 2023 
+
+Added a proof - App running in k8s. 
+
+- minikube started and shows that pods are running
+
+
+![Screenshot (249)](https://github.com/vatsalgp099/Java-REST-API/assets/68069100/5b7f1c58-50d4-4c10-aa91-1ce3fe844842)
+
+
+** CURL COMMAND TO ACCESS API when k8s pods are up ** 
+
+![Screenshot (251)](https://github.com/vatsalgp099/Java-REST-API/assets/68069100/228f635c-3514-4aa3-9fd4-6fe981ba0a26)
 
 
 
