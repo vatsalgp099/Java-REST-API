@@ -2,7 +2,8 @@
 
 ## About
 
-Implement an application in java that provides a REST API with endpoints for searching. creating and deleting "server" objects. 
+Implement an application in Java that provides a REST API with endpoints for searching. creating and deleting "server" objects. 
+Link for the app in frontend -- > https://github.com/vatsalgp099/web-app
 
 ## Index 
 * Tasks to be achieved
@@ -12,13 +13,13 @@ Implement an application in java that provides a REST API with endpoints for sea
 
 ## Task to be achieved: 
 - GET servers: Should return all the servers if no parameters are passed. When server id is passed as a parameter - return a single server or 404 if there's no such server.
-- PUT a server: The server object is passed as a json-encoded message body.
+- PUT a server: The server object is passed as a JSON-encoded message body.
 - DELETE a server: The parameter is the server ID
 - GET(find) server by name. The parameter is a string. Must check if a server name contains this string and return one or more servers found. Return 40 if nothing is found.
 
 ## Database
 
-"Server" objects should be stored in MongoDB database. 
+"Server" objects should be stored in the MongoDB database. 
 
 *Postman is used for API testing*
 
@@ -32,9 +33,9 @@ Implement an application in java that provides a REST API with endpoints for sea
 ## Process
 
 ### IntelliJ 
-The Intellij IDE is used to cater the project as a whole. 
+The IntelliJ IDE is used to cater for the project as a whole. 
 - Using [Spring boot initilizer](https://start.spring.io/) the project file was generated. 
-- In the *..\src\main\java\com.vg.App* seperate folders were created for controller, model, and repository.
+- In the *..\src\main\java\com.vg.App* separate folders were created for the controller, model, and repository.
 - Kindly refer to the files for the code.
 
 **UPDATED USING RELEVANT NAMING**
@@ -44,7 +45,7 @@ The Intellij IDE is used to cater the project as a whole.
  
  ### MongoDB 
  
- - A server was created using Mongodb
+ - A server was created using MongoDB
 *mongod* is the "Mongo Daemon" it's basically the host process for the database. When you start mongod you're basically saying "start the MongoDB process and run it in the background"
 
 ![Screenshot (131)](https://user-images.githubusercontent.com/68069100/235364078-42a4d954-c9b0-4a27-96a7-1cb2e8d301d5.png)
